@@ -1,2 +1,3 @@
-# slide-template
-Template for [`remarkjs`](https://remarkjs.com/)-based slides deployed via GitHub Pages
+# LaTeX modules: DINBrief
+
+Slides for the course on the LaTeX DINBrief package
