@@ -152,14 +152,18 @@ count: false
 
 # LaTeX-Paket dinbrief
 
-- alle Briefelemente als vordefinierte Makros
+- alle Briefelemente als vordefinierte Makros, e.g.
+  + Inhaltsangabe: `subject`
+  + Anlagen: `encl`
+  + Antwortadresse: `backaddress`
 - abgeleitet von `letter`-Klasse
   + angepasst auf DIN 676
 - inkl. Serienbrieffunktionalität
 - Alternativen, e.g.
-    + [g-brief](https://ctan.org/pkg/g-brief?lang=de)
-    + [scrlttr2](https://ctan.org/pkg/scrlttr2?lang=de) (Koma-basiert)
-- ähnliche Konzepte, unterschiedliche Makrobenamung
+  + [g-brief](https://ctan.org/pkg/g-brief?lang=de)
+  + [scrlttr2](https://ctan.org/pkg/scrlttr2?lang=de) (Koma-basiert)
+- ähnliche Konzepte, unterschiedliche Makrobenamung, e.g.
+  + `subject` → `Betreff`
 
 ---
 
