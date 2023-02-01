@@ -38,8 +38,8 @@ layout: true
 class: title-slide
 count: false
 
-# LaTeX modules
-## DINBrief
+# LaTeX-Bausteine
+## Geschäftsbriefe setzen mit DINBrief
 
 ---
 
@@ -93,7 +93,9 @@ count: false
   + einheitliche Bezeichner für Elemente
 ]
 .fifty[
+<p style="margin-top:-80px">
 <img src="img/din676.png">
+</p>
 ]
 ]
 
@@ -112,7 +114,9 @@ count: false
 - in DIN 5008 aufgegangen
 ]
 .fifty[
+<p style="margin-top:-80px">
 <img src="img/din676.png">
+</p>
 ]
 ]
 
@@ -131,7 +135,9 @@ count: false
 - in DIN 5008 aufgegangen
 ]
 .fifty[
+<p style="margin-top:-80px">
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/DIN_5008_Form_B.svg">
+</p>
 ]
 ]
 
@@ -140,20 +146,34 @@ count: false
 class: part-slide
 count: false
 
-# LaTeX-Paket [`dinbrief`](https://tex.zih.tu-dresden.de/)
+# LaTeX-Paket dinbrief
 
 ---
 
-# LaTeX-Paket [`dinbrief`](https://tex.zih.tu-dresden.de/)
+# LaTeX-Paket dinbrief
 
 - alle Briefelemente als vordefinierte Makros
+- abgeleitet von `letter`-Klasse
+  + angepasst auf DIN 676
+- inkl. Serienbrieffunktionalität
+- Alternativen, e.g.
+    + [g-brief](https://ctan.org/pkg/g-brief?lang=de)
+    + [scrlttr2](https://ctan.org/pkg/scrlttr2?lang=de) (Koma-basiert)
+- ähnliche Konzepte, unterschiedliche Makrobenamung
+
+---
+
+class: part-slide
+count: false
+
+# Demo
 
 ---
 
 class: part-slide
 
-# Many thanks for your attention!
+# Vielen Dank für Ihre Aufmerksamkeit!
 
 <center>
-<a href="https://wrznr.github.io/slide-template/">wrznr.github.io/slide-template</a>
+<a href="https://wrznr.github.io/latex-modules-dinbrief/#1">wrznr.github.io/latex-modules-dinbrief</a>
 </center>
