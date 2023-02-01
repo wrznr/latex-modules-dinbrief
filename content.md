@@ -10,7 +10,7 @@ layout: true
       <td style="text-align:right"><a href="https://www.slub-dresden.de/">www.slub-dresden.de</a></td>
     </tr>
     <tr>
-      <td style="text-align:right">Referat 2.5</td>
+      <td style="text-align:right">Referat 4.3</td>
       <td />
     </tr>
   </table>
@@ -22,13 +22,13 @@ layout: true
       <td style="text-align:left"><b>Kay-Michael Würzner</b></td>
     </tr>
     <tr>
-      <td style="text-align:left">Referat 2.5</td>
+      <td style="text-align:left">Referat 4.3</td>
     </tr>
     <tr>
-      <td style="font-size:8pt"><b>Date</b></td>
+      <td style="font-size:8pt"><b>02.02.2023</b></td>
     </tr>
     <tr>
-      <td style="font-size:8pt">Event</td>
+      <td style="font-size:8pt">LaTeX@SLUB</td>
     </tr>
   </table>
 </div>
@@ -38,23 +38,115 @@ layout: true
 class: title-slide
 count: false
 
-# Title
-## Subtitle
+# LaTeX modules
+## DINBrief
 
 ---
 
-# Overview
+# Überblick
 
-- Section 1
-  + Subsection 1
-- Section 2
+- LaTeX@SLUB
+- DIN 676
+- LaTeX-Paket [`dinbrief`](https://tex.zih.tu-dresden.de/)
+- Hands-on in [`ShareLatex`](https://tex.zih.tu-dresden.de/)
 
 ---
 
 class: part-slide
 count: false
 
-# Topic 1
+# LaTeX@SLUB
+
+---
+
+# LaTeX@SLUB
+
+.cols[
+.fifty[
+- LaTeX als Teil des bibliothekspädagogischen Angebots
+- **Ziele:**
+  + LaTeX als Textsatzprogramm etablieren
+  + *Computer literacy* stärken
+  + wissenschaftliche Professionalität stützen
+]
+.fifty[
+<img src="img/program.svg">
+]
+]
+
+---
+
+class: part-slide
+count: false
+
+# DIN 676
+
+---
+
+# DIN 676
+
+.cols[
+.fifty[
+- inzwischen zurückgezogene Norm mit Gestaltungsregeln für Geschäftsbriefe
+  + Positionierung für Adressen (e.g. für Fensterumschläge)
+  + Faltmarken und Abstände
+  + einheitliche Bezeichner für Elemente
+]
+.fifty[
+<img src="img/din676.png">
+]
+]
+
+---
+
+count: false
+
+# DIN 676
+
+.cols[
+.fifty[
+- inzwischen zurückgezogene Norm mit Gestaltungsregeln für Geschäftsbriefe
+  + Positionierung für Adressen (e.g. für Fensterumschläge)
+  + Faltmarken und Abstände
+  + einheitliche Bezeichner für Elemente
+- in DIN 5008 aufgegangen
+]
+.fifty[
+<img src="img/din676.png">
+]
+]
+
+---
+
+count: false
+
+# DIN 676
+
+.cols[
+.fifty[
+- inzwischen zurückgezogene Norm mit Gestaltungsregeln für Geschäftsbriefe
+  + Positionierung für Adressen (e.g. für Fensterumschläge)
+  + Faltmarken und Abstände
+  + einheitliche Bezeichner für Elemente
+- in DIN 5008 aufgegangen
+]
+.fifty[
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/00/DIN_5008_Form_B.svg">
+]
+]
+
+---
+
+class: part-slide
+count: false
+
+# LaTeX-Paket [`dinbrief`](https://tex.zih.tu-dresden.de/)
+
+---
+
+# LaTeX-Paket [`dinbrief`](https://tex.zih.tu-dresden.de/)
+
+- alle Briefelemente als vordefinierte Makros
 
 ---
 
