@@ -70,7 +70,7 @@ count: false
   + Support scientific professionalism
 ]
 .fifty[
-<img src="img/program.svg">
+<img src="img/program_en.svg">
 ]
 ]
 
