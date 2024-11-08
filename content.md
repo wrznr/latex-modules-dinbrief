@@ -25,7 +25,7 @@ layout: true
       <td style="text-align:left">Referat 4.3</td>
     </tr>
     <tr>
-      <td style="font-size:8pt"><b>11.12.2023</b></td>
+      <td style="font-size:8pt"><b>08.11.2024</b></td>
     </tr>
     <tr>
       <td style="font-size:8pt">LaTeX@SLUB</td>
@@ -46,8 +46,9 @@ count: false
 # Überblick
 
 - LaTeX@SLUB
-- DIN 676
+- DIN 676 / 5008
 - LaTeX-Paket [`dinbrief`](https://tex.zih.tu-dresden.de/)
+- LaTeX-Paket [`scrlttr2`](https://tex.zih.tu-dresden.de/)
 - Hands-on in [`ShareLatex`](https://tex.zih.tu-dresden.de/)
 
 ---
@@ -111,7 +112,7 @@ count: false
   + Positionierung für Adressen (e.g. für Fensterumschläge)
   + Faltmarken und Abstände
   + einheitliche Bezeichner für Elemente
-- in DIN 5008 aufgegangen
+- in **DIN 5008** aufgegangen
 ]
 .fifty[
 <p style="margin-top:-80px">
@@ -132,7 +133,7 @@ count: false
   + Positionierung für Adressen (e.g. für Fensterumschläge)
   + Faltmarken und Abstände
   + einheitliche Bezeichner für Elemente
-- in DIN 5008 aufgegangen
+- in **DIN 5008** aufgegangen
 ]
 .fifty[
 <p style="margin-top:-80px">
@@ -161,9 +162,33 @@ count: false
 - inkl. Serienbrieffunktionalität
 - Alternativen, e.g.
   + [g-brief](https://ctan.org/pkg/g-brief?lang=de)
-  + [scrlttr2](https://ctan.org/pkg/scrlttr2?lang=de) (Koma-basiert)
+  + [**scrlttr2**](https://ctan.org/pkg/scrlttr2?lang=de) (KOMA-basiert)
 - ähnliche Konzepte, unterschiedliche Makrobenamung, e.g.
   + `subject` → `Betreff`
+
+---
+
+class: part-slide
+count: false
+
+# LaTeX-Paket scrlttr2
+
+---
+
+# LaTeX-Paket scrlttr2
+
+- Teil von KOMA-Script
+  + äußerst mächtige LaTeX-Erweiterung von Markus Kohm
+  + Alternativen bzw. Erweiterungen für viele Basisklassen
+  + mglw. vor dem Aus
+- alle Briefelemente als vordefinierte Makros, e.g.
+  + Inhaltsangabe: `subject`
+  + Anlagen: `encl`
+  + Antwortadresse: `fromaddress`
+- abgeleitet von `letter`-Klasse
+  + angepasst auf DIN 5008
+- inkl. Serienbrieffunktionalität
+- **mehr Flexibilität, mehr Anpassungsbedarf**
 
 ---
 
@@ -177,6 +202,10 @@ count: false
 class: part-slide
 
 # Vielen Dank für Ihre Aufmerksamkeit!
+
+<center>
+<img src="img/qr.png">
+</center>
 
 <center>
 <a href="https://wrznr.github.io/latex-modules-dinbrief/#1">wrznr.github.io/latex-modules-dinbrief</a>
